@@ -38,7 +38,7 @@
     "minimist": "~1.2.0",
     "moment": "^2.24.0",
     "path-posix": "~1.0.0",
-    "url-parse": "~1.4.7"
+    "url-parse": "~1.5.9"
   },
   "devDependencies": {
     "@types/minimist": "^1.2.0",
