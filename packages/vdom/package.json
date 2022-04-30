@@ -31,7 +31,9 @@
     "clean": "rimraf lib",
     "docs": "typedoc src",
     "prepublishOnly": "npm run build",
-    "watch": "tsc -b --watch"
+    "watch": "tsc -b --watch",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@jupyterlab/apputils": "^2.0.0-rc.0",
@@ -43,7 +45,8 @@
     "@lumino/widgets": "^1.10.2",
     "@nteract/transform-vdom": "^4.0.3",
     "react": "~16.9.0",
-    "react-dom": "~16.9.0"
+    "react-dom": "~16.9.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/react": "~16.9.16",
@@ -54,5 +57,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
