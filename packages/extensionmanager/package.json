@@ -42,7 +42,7 @@
     "@lumino/polling": "^1.0.3",
     "react": "~16.9.0",
     "react-paginate": "^6.3.2",
-    "semver": "^6.3.0"
+    "semver": "^7.5.2"
   },
   "devDependencies": {
     "@types/react-paginate": "^6.2.1",
